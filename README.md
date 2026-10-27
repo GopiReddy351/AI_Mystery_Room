@@ -14,7 +14,7 @@ AI Mystery Room turns a story premise into a fictional detective case. Investiga
 2. Start MongoDB at the configured `MONGODB_URI`.
 3. Install workspace dependencies with `npm install`.
 4. Start the frontend and backend with `npm run dev`.
-5. Open <http://localhost:5173>.
+5. Open[ <http://localhost:5173>.](http://192.168.55.104:5173/)
 
 The API listens on port 5000 by default. The backend fails at startup when MongoDB is unreachable. Case generation reports a setup error if no Gemini key is configured; it never presents a fabricated case as a successful AI result.
 
